@@ -8,3 +8,11 @@
 .card img {
   max-height: 200px;
 }
+
+.delete-btn {
+  background-color: #4fa94d;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 4px;
+  border: none;
+}

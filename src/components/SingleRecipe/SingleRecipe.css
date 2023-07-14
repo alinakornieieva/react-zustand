@@ -1,0 +1,27 @@
+.single-recipe {
+  display: flex;
+  justify-content: center;
+}
+
+.all-details {
+  max-width: 350px;
+  margin-left: 40px;
+}
+
+.single-recipe .img-div img {
+  max-height: 500px;
+}
+
+@media (max-width: 500px) {
+  .single-recipe {
+    display: block;
+  }
+  .all-details {
+    margin-left: 0;
+  }
+  .single-recipe .img-div,
+  h2,
+  .tagline {
+    text-align: center;
+  }
+}
